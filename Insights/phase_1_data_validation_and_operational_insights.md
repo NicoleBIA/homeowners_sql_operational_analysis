@@ -7,7 +7,7 @@ This initial analysis phase focused on validating data imports and running opera
 - `house_addresses`  
 - `maintenance_requests`  
 
-I verified record counts, identified vacant properties, summarized request statuses and types, and established foundational JOIN logic for operational visibility.
+I verified record counts, identified vacant properties, summarized request statuses and types, and established foundational JOINS for operational visibility.
 
 ---
 
