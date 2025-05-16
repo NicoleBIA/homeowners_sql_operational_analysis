@@ -28,3 +28,11 @@ I verified record counts, identified vacant properties, summarized request statu
 SELECT *  
 FROM house_addresses  
 WHERE homeowner_id IS NULL;
+
+### Insight
+
+**3 properties** were found with no associated `homeowner_id`.  
+These likely represent **vacant, transitional, or unassigned properties**.
+
+> *Strategic Opportunity:* Flag these addresses for **resale preparation, rental onboarding, or inspection cycle planning**. This early diagnostic supports proactive asset utilization in HOA operations.
+
