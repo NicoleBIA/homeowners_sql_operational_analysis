@@ -1,51 +1,81 @@
 # homeowners_sql_operational_analysis
 
-SQL-based operational analysis project for a simulated Homeowners Association (HOA) system. This project models homeowner and property data using relational database principles, and applies structured queries to derive operational insights, identify maintenance trends, and support decision-making through data validation and join logic.
-
-## Project Scope
-
-This project demonstrates core SQL and relational modeling capabilities by analyzing property, homeowner, and maintenance request data across a small-scale simulated HOA system. Focus areas include:
-
-- Database schema design
-- Data import and validation
-- Query development
-- Maintenance trend analysis
-- Vacancy detection
-- Operational join logic
+SQL-based operational analysis project for a simulated Homeowners Association (HOA) system.  
+Focuses on relational database modeling, data validation, and strategic insights using PostgreSQL.
 
 ---
 
-##  Use Case
+## Project Overview
 
-This project serves as a practical reference for:
-
-- SQL-focused technical interviews  
-- Demonstrating operational insight generation with real-world structures  
-- Analysts seeking to reinforce relational database fluency through scenario-based querying  
+This project simulates the operations of a Homeowners Association (HOA) responsible for managing homeowner information, property addresses, and maintenance request activity. It was designed to demonstrate applied SQL skills including database creation, data import, validation, exploratory analysis, and operational insight development.
 
 ---
 
-## Database Structure
+## Tools & Technologies
 
-| Table Name           | Description                                       | Key Columns                              |
-|----------------------|---------------------------------------------------|-------------------------------------------|
-| `homeowners`         | Homeowner contact records                         | `homeowner_id`, `first_name`, `email`     |
-| `house_addresses`    | Property address and ownership linkage            | `address_id`, `street`, `homeowner_id`    |
-| `maintenance_requests` | Tracks maintenance request details and status   | `request_id`, `maintenance_type`, `status`|
+- **PostgreSQL** (via pgAdmin 4)
+- SQL (DDL, DML, SELECT, JOINs, GROUP BY)
+- Data modeling (3-table schema)
+- Manual data inspection & validation
+- Commentary for code clarity and reuse
 
-## 📊 Analysis Highlights (Phase 1)
+---
 
-- All 30 homeowner records were successfully imported and validated.
-- 3 vacant properties were identified, enabling targeted outreach opportunities.
-- Maintenance requests were categorized into Open, In Progress, and Closed, supporting workload tracking.
-- Roof Repair and Lawn Care were the most reported issue types, informing preventive planning.
-- Homeowner-property joins enabled integrated insights across household-level operations.
+## 📊 Project Structure
 
-## 🛠️ Tools Used
+| Component               | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| `homeowners`           | Contains homeowner personal records (name, contact info)                    |
+| `house_addresses`      | Stores residential property details including state, ZIP, and build date    |
+| `maintenance_requests` | Logs requests submitted by homeowners with status and issue type tracking   |
 
-- PostgreSQL (pgAdmin 4)
-- SQL (Data modeling, validation, joins, aggregation)
-- GitHub (Documentation and version control)
+---
 
-## 📂 Folder Structure (To Be Added)
+## ✅ Key Features Demonstrated
+
+- Creation of normalized relational tables with appropriate datatypes and primary keys
+- Data import verification with `SELECT *` queries to ensure row counts match expectations
+- Identification of vacant properties (no assigned homeowner)
+- Aggregation of maintenance request status types (`Open`, `In Progress`, `Closed`)
+- Distribution analysis of most common maintenance types
+- Inner Join across homeowner and address tables to create operational visibility
+
+---
+
+## Insights Summary
+
+- **30 homeowner records** were successfully imported and validated.
+- **3 vacant properties** were identified with no homeowner assigned—useful for future outreach or asset tracking.
+- Maintenance requests are distributed as follows:
+  - `In Progress` (10)
+  - `Open` (7)
+  - `Closed` (3)
+- **Roof Repair** and **Lawn Care** are the most frequent maintenance issues, signaling potential service prioritization areas.
+- Joined records provide full visibility into homeowners and their property addresses, enabling planning for outreach, maintenance, and compliance enforcement.
+
+---
+
+## Use Case
+
+This project simulates a mini-scale operations system for a Homeowners Association (HOA). It demonstrates how SQL can be used to:
+- Validate that imported records match operational expectations
+- Identify vacant or unassigned assets (e.g., homes without registered owners)
+- Track maintenance request flow and backlog
+- Segment types of requests for contractor scheduling or budget forecasting
+- Join homeowners with addresses to ensure full operational visibility
+
+The project structure and insights model how operational analysts and data teams might work within property management, real estate, or municipal data systems.
+
+---
+
+## 📁 Next Steps
+
+Planned future extensions include:
+- Adding foreign key constraints
+- Creating calculated fields (e.g., house age)
+- Integrating advanced queries using CTEs, CASE, and Window Functions
+- Dashboarding via Power BI or Tableau for visual insights
+
+---
+
 
