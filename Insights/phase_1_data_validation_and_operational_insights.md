@@ -32,6 +32,8 @@ WHERE homeowner_id IS NULL;```
 
 ---
 
+![Vacant Property Results](/Images/House_Addresses_HomeownerID_Null.png)
+
 ### Insight
 
 **3 properties** were found with no associated `homeowner_id`.  
