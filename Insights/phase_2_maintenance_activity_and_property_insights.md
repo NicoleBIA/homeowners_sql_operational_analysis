@@ -101,6 +101,11 @@ Order By total_requests DESC;
 
 - Roof Repair (6), Lawn Care (6), Plumbing (4)
 
+**Insight:** 
+
+> Roof Repair is the most reported issue, with 6 total requests across statuses — suggesting priority for preventive inspection.
+
+
 ---
 
 ## Maintenance Request Count by Status
@@ -171,7 +176,7 @@ From house_addresses a
 Where a.house_built_date IS NOT NULL;
 ```
 
-**Property Age Segment Distribution**
+## Property Age Segment Distribution
 
 
 | Property Age Group        | Age Range        | Count | % of Total |
@@ -204,6 +209,13 @@ Where a.house_built_date IS NOT NULL;
 - Vacant Properties: 3 idle homes with no requests; candidates for inspection or resale strategy.
 
 ---
+
+### Key Observations
+
+- 65% of open/in-progress requests have been unresolved for over 600 days.
+- 13 properties are less than 20 years old; 4 are over 60 years old.
+- Lawn Care and Roof Repair dominate active requests.
+
 
 
 
