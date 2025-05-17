@@ -144,7 +144,14 @@ Lawn Care and Roof Repair dominate unresolved workload.
 
 ## Property Age Segmentation
 
-This analysis segments properties into aging groups using house_built_date.
+This analysis segments all 30 properties by construction age using `house_built_date`. This provides operational and risk management visibility for property condition and potential capital improvement needs.
+
+**Defined Age Groups:**
+
+- `0–20 years (Newer)` → Built after 2005
+- `21–40 years (Mid-Age)` → Built between 1985–2004
+- `41–60 years (Older)` → Built between 1965–1984
+- `60+ years (Very Old)` → Built in 1964 or earlier
 
 ```sql
 Select
@@ -164,7 +171,29 @@ From house_addresses a
 Where a.house_built_date IS NOT NULL;
 ```
 
-**Key Takeaways** 
+**Property Age Segment Distribution**
+
+
+| Property Age Group        | Age Range        | Count | % of Total |
+|---------------------------|------------------|-------|------------|
+| `0–20 years (Newer)`      | 2005 – 2024      | 13    | 43.3%      |
+| `21–40 years (Mid-Age)`   | 1985 – 2004      | 7     | 23.3%      |
+| `41–60 years (Older)`     | 1965 – 1984      | 8     | 26.7%      |
+| `60+ years (Very Old)`    | ≤ 1964           | 4     | 13.3%      |
+| **Total Properties**      | —                | **30**| **100%**   |
+
+
+**Operational Insight** 
+
+- Over 40% of the properties are newer builds (≤ 20 years), suggesting reduced maintenance pressure.
+
+- 8 properties (27%) fall into the Older (41–60 years) category, potentially nearing key structural lifecycle thresholds.
+
+- 4 homes are classified as Very Old (60+ years) — these may warrant proactive inspections or capital forecasting.
+
+---
+
+## Key Takeaways
 
 - High Request Volume: Certain homeowners and request types (Roof, Lawn) dominate service load.
 
