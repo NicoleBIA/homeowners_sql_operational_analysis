@@ -118,7 +118,7 @@ Order by request_status;
 
 **Result:**
 
-10 In Progress, 7 Open, 3 Closed — signaling possible backlog or processing delays.
+10 In Progress, 7 Open, 3 Closed; signaling possible backlog or processing delays.
 
 ---
 
@@ -189,7 +189,7 @@ Where a.house_built_date IS NOT NULL;
 
 - 8 properties (27%) fall into the Older (41–60 years) category, potentially nearing key structural lifecycle thresholds.
 
-- 4 homes are classified as Very Old (60+ years) — these may warrant proactive inspections or capital forecasting.
+- 4 homes are classified as Very Old (60+ years); these may warrant proactive inspections or capital forecasting.
 
 ---
 
@@ -197,11 +197,11 @@ Where a.house_built_date IS NOT NULL;
 
 - High Request Volume: Certain homeowners and request types (Roof, Lawn) dominate service load.
 
-- Aging Inventory: A third of homes are 41+ years old — potential for proactive maintenance planning.
+- Aging Inventory: A third of homes are 41+ years old;  potential for proactive maintenance planning.
 
 - Backlog Risk: Many requests remain unresolved 400+ days.
 
-- Vacant Properties: 3 idle homes with no requests — candidates for inspection or resale strategy.
+- Vacant Properties: 3 idle homes with no requests; candidates for inspection or resale strategy.
 
 ---
 
