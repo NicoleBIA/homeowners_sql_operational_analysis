@@ -176,7 +176,7 @@ From house_addresses a
 Where a.house_built_date IS NOT NULL;
 ```
 
-## Property Age Segment Distribution
+# Property Age Segment Distribution
 
 
 | Property Age Group        | Age Range        | Count | % of Total |
