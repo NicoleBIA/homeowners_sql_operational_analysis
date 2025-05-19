@@ -1,4 +1,4 @@
-# Phase 1 – Data Validation & Operational Insights
+# Phase 1: Data Validation & Operational Insights
 
 ## Overview
 
