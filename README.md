@@ -21,7 +21,7 @@ This project simulates the operations of a Homeowners Association (HOA) responsi
 
 ---
 
-## 📊 Project Structure
+## Project Structure
 
 | Component               | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|
@@ -31,7 +31,7 @@ This project simulates the operations of a Homeowners Association (HOA) responsi
 
 ---
 
-## ✅ Key Features Demonstrated
+## Key Features Demonstrated
 
 - Creation of normalized relational tables with appropriate datatypes and primary keys
 - Data import verification with `SELECT *` queries to ensure row counts match expectations
@@ -68,7 +68,7 @@ The project structure and insights model how operational analysts and data teams
 
 ---
 
-## 📁 Next Steps
+## Next Steps
 
 Planned future extensions include:
 - Adding foreign key constraints
