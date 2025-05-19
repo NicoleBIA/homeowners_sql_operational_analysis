@@ -1,4 +1,4 @@
-# 🧾 Phase 2: Maintenance Request Analysis & Property Segmentation
+# Phase 2: Maintenance Request Analysis & Property Segmentation
 
 This analysis phase focused on operational workload patterns, homeowner activity, and aging infrastructure by:
 
@@ -215,6 +215,12 @@ Where a.house_built_date IS NOT NULL;
 - 65% of open/in-progress requests have been unresolved for over 600 days.
 - 13 properties are less than 20 years old; 4 are over 60 years old.
 - Lawn Care and Roof Repair dominate active requests.
+
+View Phase 1 Insights Here:
+[Phase 1 Insights:](/Insights/phase_1_data_validation_and_operational_insights.md)
+
+View Phase 1 and Phase 2 Strategic Recommendations Here:
+[Strateguc Recommendations:](/Strategic_recommendations/phase_2_operational_strategy_hoamaintenance.md)
 
 
 
