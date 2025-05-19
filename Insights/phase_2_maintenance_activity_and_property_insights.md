@@ -222,6 +222,9 @@ View Phase 1 Insights Here:
 View Phase 1 and Phase 2 Strategic Recommendations Here:  
 [Strategic Recommendations:](../Strategic_Recommendations/phase_2_operational_strategy_hoamaintenance.md)
 
+View the Project README Here:  
+[README Overview](../README.md)
+
 
 
 
