@@ -1,6 +1,6 @@
 # Phase 1 – Data Validation & Operational Insights
 
-## 🧾 Overview
+## Overview
 
 This initial analysis phase focused on validating data imports and running operational diagnostics across three key tables:  
 - `homeowners`  
@@ -11,7 +11,7 @@ I verified record counts, identified vacant properties, summarized request statu
 
 ---
 
-## ✅ Data Validation Results
+## Data Validation Results
 
 | Table                 | Expected Records | Imported Records | Notes                           |
 |----------------------|------------------|------------------|----------------------------------|
