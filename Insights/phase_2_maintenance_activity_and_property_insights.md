@@ -220,7 +220,7 @@ View Phase 1 Insights Here:
 [Phase 1 Insights:](/Insights/phase_1_data_validation_and_operational_insights.md)
 
 View Phase 1 and Phase 2 Strategic Recommendations Here:
-[Strategic Recommendations:](/Strategic_Recommendations/phase_2_operational_strategy_hoamaintenance.md)
+[Strategic Recommendations:](Strategic_Recommendations/phase_2_operational_strategy_hoamaintenance.md)
 
 
 
